@@ -1,0 +1,110 @@
+.page-container {
+  position: relative;
+  background: url('../assets/food13.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  /* Ajustado para min-height para permitir crescimento da página */
+  padding-top: 60px;
+  /* Ajuste conforme necessário para evitar sobreposição com o cabeçalho */
+  padding-bottom: 60px;
+  /* Ajuste conforme necessário para evitar sobreposição com o cabeçalho */
+  margin-top: -100px;
+
+}
+
+.header-overlay {
+  position: relative;
+  /* Altere para relative */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  /* Ajuste para auto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.contacts-header-text {
+  position: relative;
+  font-weight: 700;
+  font-size: large;
+  z-index: 2;
+  /* Para garantir que o texto fique acima do overlay */
+  color: rgb(255, 255, 255);
+  /* Cor do texto */
+  font-size: 30px;
+  /* Tamanho do texto */
+  text-align: center;
+  /* Alinhamento do texto */
+  line-height: 30vh;
+  /* Alinhamento vertical do texto */
+}
+
+
+
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-container {
+  flex: 1 1 30%;
+  background-color: rgba(0, 0, 0, 0.416);
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.contact-container h2 {
+  color: white;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.contact-page-info {
+  font-size: 1em;
+  color: #ffffff;
+}
+
+.contact-container h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Responsivo */
+@media (max-width: 950px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-container {
+    width: 85%;
+  }
+
+  .contact-icon {
+    font-size: 1.5em;
+  }
+
+  .contact-page-info {
+    font-size: 0.9em;
+  }
+}

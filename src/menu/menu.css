@@ -1,0 +1,278 @@
+.menu-header {
+  position: relative;
+  margin-top: -100px; /* Remove negative margin if not needed */
+  width: 100vw; /* Ensure it spans the full viewport width */
+  height: 50vh; /* Ensure it spans the full viewport height */
+  overflow: hidden; /* Hide overflow to prevent any unwanted scrollbars */
+  display: flex;
+  align-items: center;
+}
+
+.header-image {
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  height: 100%; /* Set the height to 100% of the viewport height */
+  object-fit: cover; /* Ensure the image covers the entire container without stretching */
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Ajustar altura para 100% */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor da camada semi-transparente */
+}
+
+.header-text {
+  font-size: 8vw; /* Tamanho adaptável ao viewport */
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para melhorar legibilidade */
+}
+
+.section {
+  padding: 3rem 0;
+  color: #000000; /* Default text color */
+}
+
+/* Apply dark background for every other section */
+.section:nth-of-type(even) {
+  background-color: #551a1a; /* Dark background color */
+  color: white; /* White text color */
+}
+
+/* Ensure text in dark sections is white */
+.section:nth-of-type(even) .itemName,
+.section:nth-of-type(even) .itemIngredients,
+.section:nth-of-type(even) .itemPrice,
+.section:nth-of-type(even) .tabs-section-title {
+  color: white;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.item {
+  padding: 0.5rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.itemName {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: left;
+
+  margin-bottom: 1rem;
+}
+
+.itemIngredients {
+  font-size: 20px;
+  color: #000;
+  font-style: italic;
+
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.itemPrice {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.horizontalLine {
+  width: 100px;
+  height: 3px;
+  background-color: #551a1a;
+  margin: 0 auto 2rem auto;
+}
+
+.dashed-line {
+  border: none;
+  border-top: 1px dashed #ccc;
+  margin: 1rem auto;
+  width: 90%;
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px auto;
+  width: 60%;
+  cursor: pointer;
+}
+
+.section-image {
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: 1rem auto;
+  display: block;
+}
+
+
+.main-tabs-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9f5;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+}
+
+.secondary-tabs-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row; /* Keep secondary tabs in a row format */
+  flex-wrap: wrap; /* Allow wrapping to next line if needed */
+  justify-content: center;
+  margin: 1rem 0;
+  background-color: #f8f9f5;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5rem; /* Adjust based on the height of main-tabs-container */
+  z-index: 10;
+}
+
+.main-tab {
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #000;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s;
+  border-radius: 0px 6px 0 0;
+}
+
+
+.secondary-tab {
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border: 0.01px solid #000;
+  margin: 0.5rem;
+  font-weight: 400;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+  border-radius: 6px;
+}
+
+.main-tab.active,
+.secondary-tab.active {
+  border-bottom: 3px solid #0f0f0f83;
+  background-color: #551a1a;
+  color: white;
+}
+
+.tab-title {
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+.tabs-section-title {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}
+
+@media (max-width: 950px) {
+  .main-tabs-container {
+    flex-direction: row; /* Keep Comida and Bebida side by side */
+    justify-content: space-around;
+    top: 0;
+    padding-top: 1rem;
+  }
+
+  .secondary-tabs-container {
+    flex-direction: row; /* Keep secondary tabs in a row format */
+    flex-wrap: wrap; /* Allow wrapping to next line if needed */
+    justify-content: space-around;
+    top: 4rem; /* Adjust based on the height of main-tabs-container */
+    padding: 1rem 0 0 0;
+  }
+
+  .main-tab {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    flex: 1; /* Make tabs evenly distributed */
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .secondary-tab {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    flex: 1; /* Make tabs evenly distributed */
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tab-title {
+    font-size: 13px;
+  }
+
+  .tabs-section-title {
+    font-size: 14px;
+  }
+
+  .section {
+    padding: 0.3rem 0;
+  }
+
+  .itemName {
+    font-size: 16px;
+  
+  
+    margin-bottom: 1rem;
+  }
+  
+  .itemIngredients {
+    font-size: 14px;
+  
+  }
+  
+  .itemPrice {
+    font-size: 14px;
+  
+  }
+}
+
+
+.menu-container-wrapper{
+
+}
+
+.menu-container{
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1200px;
+}

@@ -1,0 +1,75 @@
+/* src/components/cards.css */
+
+.cards-container {
+ 
+  text-align: center;
+  background-color: #551a1a; /* Dark background color */
+  padding: 3rem  1rem 6rem 1rem; /* Add padding to give space inside the container */
+  color: white; /* Set default text color to white */
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed white; /* Dashed white border */
+  border-radius: 4px;
+  width: calc(50% - 10px); /* Leaves space between cards */
+  max-width: 300px;
+  height: 88px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0 10px;
+  overflow: hidden; /* Prevents text overflow */
+  background-color: transparent; /* Transparent background to match container */
+  color: white; /* White text color for the cards */
+}
+
+.card-text {
+  width: 90%;
+}
+
+.card strong {
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Roboto Mono", monospace;
+  color: white; /* Ensure text remains white */
+  flex-wrap: wrap;
+}
+
+.icon-section {
+  width: 10%;
+}
+
+.card-icon {
+  color: white; /* White icon color */
+  font-size: 25px;
+}
+
+@media screen and (max-width: 950px) {
+  .cards {
+    justify-content: center;
+  }
+
+  .card {
+    width: calc(50% - 10px); /* Cards occupy full width on smaller screens */
+  }
+
+  .card strong {
+    font-size: 13px;
+    font-weight: 200;
+    color: white; /* White text color for mobile */
+  }
+
+  .card-icon {
+    font-size: 18px; /* Smaller icon size for mobile */
+  }
+}

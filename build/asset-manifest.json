@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d49b21e3.css",
+    "main.js": "/static/js/main.28b828c9.js",
+    "static/js/453.85fab4a2.chunk.js": "/static/js/453.85fab4a2.chunk.js",
+    "static/media/hero_video.mov": "/static/media/hero_video.8f8fed4c764f1c2eac71.mov",
+    "static/media/mobile-hero-video.mp4": "/static/media/mobile-hero-video.915a87336a1618b459a2.mp4",
+    "static/media/menu_section.jpg": "/static/media/menu_section.6c1c1fc451724372ecb7.jpg",
+    "static/media/food14.jpg": "/static/media/food14.77b83efe1781557f0cea.jpg",
+    "static/media/food13.jpg": "/static/media/food13.428818b3f7b469480464.jpg",
+    "static/media/food12.jpg": "/static/media/food12.df1d96a7c096d013c405.jpg",
+    "static/media/food5.jpg": "/static/media/food5.227bf56b52520925b539.jpg",
+    "static/media/food9.jpg": "/static/media/food9.443dd7c0f9544fb3a3c2.jpg",
+    "static/media/food4.jpg": "/static/media/food4.095d5670c08db55518ef.jpg",
+    "static/media/food8.jpg": "/static/media/food8.5aefa823ac1cb11ab104.jpg",
+    "static/media/food6.jpg": "/static/media/food6.b3a93484d09fcf6044a9.jpg",
+    "static/media/food3.jpg": "/static/media/food3.e27048e354b35327fe36.jpg",
+    "static/media/food1.jpg": "/static/media/food1.39b3b611226c20b2e41e.jpg",
+    "static/media/food2.jpg": "/static/media/food2.8f74538ac8e1d88f2ad9.jpg",
+    "static/media/food7.jpg": "/static/media/food7.51cb3e750b5b7bd7744a.jpg",
+    "static/media/pao-alho.jpeg": "/static/media/pao-alho.386daa25e75b9e7d81dd.jpeg",
+    "static/media/about_veg.png": "/static/media/about_veg.357fae533298799adcbc.png",
+    "static/media/logo_slogan.png": "/static/media/logo_slogan.3a972753bbd34d0bb8f3.png",
+    "index.html": "/index.html",
+    "main.d49b21e3.css.map": "/static/css/main.d49b21e3.css.map",
+    "main.28b828c9.js.map": "/static/js/main.28b828c9.js.map",
+    "453.85fab4a2.chunk.js.map": "/static/js/453.85fab4a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d49b21e3.css",
+    "static/js/main.28b828c9.js"
+  ]
+}

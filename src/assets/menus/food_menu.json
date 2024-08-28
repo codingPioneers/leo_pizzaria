@@ -1,0 +1,276 @@
+{
+    "entradas": [
+      {
+        "nome": "Couvert",
+        "ingredientes": ["Pão", "Azeitonas", "Manteiga", "Queijo Fresco"],
+        "preco": 3.50,
+        "vegetariano": true
+      },
+      {
+        "nome": "Queijo Curado",
+        "ingredientes": [""],
+        "preco": 3.50,
+        "vegetariano": true
+      },
+      {
+        "nome": "Sopa de Legumes",
+        "ingredientes": [""],
+        "preco": 3.50,
+        "vegetariano": true
+      },
+      {
+        "nome": "Gambas à Guilho",
+        "ingredientes": ["Camarão, Alho, Coentros"],
+        "preco": 13.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Ameijoas",
+        "ingredientes": [""],
+        "preco": 18.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Salada Mista",
+        "ingredientes": ["Alface", "Tomate", "Cenoura", "Cebola"],
+        "preco": 5.50,
+        "vegetariano": true
+      },
+      {
+        "nome": "Salada de Frango",
+        "ingredientes": ["Alface", "Frango", "Tomate", "Milho"],
+        "preco": 8.50,
+        "vegetariano": false
+      },
+   
+      {
+        "nome": "Salada Atum",
+        "ingredientes": ["Alface", "Atum", "Tomate", "Milho"],
+        "preco": 7.00,
+        "vegetariano": false
+      }
+    ],
+    "Carne": [
+      {
+        "nome": "Bitoque de Bovino",
+        "ingredientes": ["Bife de Vaca", "Batata", "Arroz", "Ovo Estrelado"],
+        "preco": 11.50,
+        "vegetariano": false
+      }, 
+      {
+        "nome": "1/2 Frando Grelhado",
+        "ingredientes": ["Frango Grelhado", "Arroz Branco", "Batata Frita"],
+        "preco": 9.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Entremeada de Porco",
+        "ingredientes": ["Entremeada", "Salada", "Batata Frita"],
+        "preco": 13.00,
+        "vegetariano": false
+      }
+      ,
+      {
+        "nome": "Costoletas de Porco",
+        "ingredientes": ["Costoletas", "Salada", "Batata Fritas"],
+        "preco": 13.00,
+        "vegetariano": false
+      },
+      {
+        "nome": "Salsichas de Porco",
+        "ingredientes": ["Salsichas", "Salada", "Batata Fritas"],
+        "preco": 12.50,
+        "vegetariano": false
+      },
+     
+      {
+        "nome": "Grelhada Mista de Porco",
+        "ingredientes": ["Entremeada","Salsicha Fresca","Costoleta", "Salada", "Batata Fritas"],
+        "preco": 13.50,
+        "vegetariano": false
+      },
+       {
+        "nome": "Secretos de Porco Ibérico",
+        "ingredientes": ["Secretos", "Arroz Branco", "Batata Frita"],
+        "preco": 14.50,
+        "vegetariano": false
+      }
+      ,
+      {
+       "nome": "Plumas de Porco Ibérico",
+       "ingredientes": ["Plumas", "Arroz Branco", "Batata Frita"],
+       "preco": 15.50,
+       "vegetariano": false
+     },
+     {
+      "nome": "Entrecôte",
+      "ingredientes": ["Entrecôte", "Arroz Branco", "Batata Frita"],
+      "preco": 19.50,
+      "vegetariano": false
+    }
+    ,
+    {
+     "nome": "Picanha (Carne Maturada)",
+     "ingredientes": ["Picanha", "Arroz Branco", "Feijão Preto"],
+     "preco": 17.50,
+     "vegetariano": false
+   },
+   {
+    "nome": "Maminha (Carne Maturada)",
+    "ingredientes": ["Maminha", "Arroz Branco", "Feijão Preto"],
+    "preco": 15.50,
+    "vegetariano": false
+  }
+
+
+    ],
+    "Peixe": [
+      
+      {
+        "nome": "Sardinhas",
+        "ingredientes": ["Sardinhas", "Salada Mista", "Batata Cozida"],
+        "preco": 11.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Dourada",
+        "ingredientes": ["Dourada", "Legumes Cozidos", "Batata Cozida"],
+        "preco": 15.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Robalo",
+        "ingredientes": ["Robalo", "Legumes Cozidos", "Batata Cozida"],
+        "preco": 14.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Chocos Grelhados",
+        "ingredientes": ["Chocos", "Legumes Cozidos", "Batata Cozida"],
+        "preco": 16.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Bacalhau à Lagareiro",
+        "ingredientes": ["Posta de Bacalhau", "Batata Cozida", "Legumes Cozidos"],
+        "preco": 18.50,
+        "vegetariano": false
+      },  
+      {
+        "nome": "Barriga de Atum",
+        "ingredientes": ["Barriga de Atum", "Legumes Cozidos", "Batata Cozida"],
+        "preco": 15.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Salmão",
+        "ingredientes": ["Salmão", "Legumes Cozidos", "Batata Cozida"],
+        "preco": 14.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Espetada de Camarão",
+        "ingredientes": ["Camarão", "Batata Cozida", "Legumes Cozidos"],
+        "preco": 16.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Espetada de Salmão",
+        "ingredientes": [ "Salmão","Camarão", "Batata Cozida", "Legumes Cozidos"],
+        "preco": 17.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Espetada de Tamboril",
+        "ingredientes": ["Tamboril", "Camarão", "Batata Cozida", "Legumes Cozidos"],
+        "preco": 19.50,
+        "vegetariano": false
+      }
+    ],
+    "Pastas": [
+      {
+        "nome": "Espaguete Bolonhesa",
+        "ingredientes": ["Espaguete", "Carne moída", "Tomate", "Cebola"],
+        "preco": 9.00,
+        "vegetariano": false
+      },
+      {
+        "nome": "Espaguete Carbonara",
+        "ingredientes": ["Espaguete", "Bacon", "Ovo", "Parmesão"],
+        "preco": 9.50,
+        "vegetariano": false
+      },
+      {
+        "nome": "Tagliatelle Bolonhesa",
+        "ingredientes": ["Tagliatelle", "Carne moída", "Tomate", "Cebola"],
+        "preco": 10.00,
+        "vegetariano": false
+      },
+      {
+        "nome": "Tagliatelle Carbonara",
+        "ingredientes": ["Tagliatelle", "Bacon", "Ovo", "Parmesão"],
+        "preco": 10.50,
+        "vegetariano": false
+      }
+    ], 
+    "2 Pax": [
+      {
+        "nome": "Arroz de Marisco",
+        "ingredientes": ["Arroz", "Marisco Variado"],
+        "preco": 42.00,
+        "vegetariano": false
+      },
+      {
+        "nome": "Cataplana de Marisco",
+        "ingredientes": ["Marisco Variado", "Batata Cozida"],
+        "preco": 46.00,
+        "vegetariano": false
+      }  , {
+        "nome": "Pregado",
+        "ingredientes": ["Pregado", "Legumes Cozidos", "Batata Cozida"],
+        "preco": 45.00,
+        "vegetariano": false
+      },   {
+        "nome": "Mar e Monte",
+        "ingredientes": ["Carne, Peixe ou Misto", "2 acompanhamentos à escolha"],
+        "preco": 45.00,
+        "vegetariano": false
+      }
+    ], 
+    "sobremesas": [
+      {
+        "nome": "Gelado 1 Bola",
+        "ingredientes": ["Sabores Variados"],
+        "preco": 3.50,
+        "vegetariano": true
+      },
+      {
+        "nome": "Gelado 2 Bolas",
+        "ingredientes": ["Sabores Variados"],
+        "preco": 3.50,
+        "vegetariano": true
+      },
+      {
+        "nome": "Gelado 3 Bolas",
+        "ingredientes": ["Sabores Variados"],
+        "preco": 3.50,
+        "vegetariano": true
+      },
+      {
+        "nome": "Crepe Simples",
+        "ingredientes": ["+1.5€ p/ bola de gelado", "+1€ p/ topping"],
+        "preco": 3.50,
+        "vegetariano": true
+      },
+      {
+        "nome": "Sobremesa da Casa",
+        "ingredientes": ["Variada"],
+        "preco": 3.50,
+        "vegetariano": true
+      }
+    
+    
+    
+    ]
+  }
+  

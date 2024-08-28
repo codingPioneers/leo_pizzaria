@@ -1,0 +1,82 @@
+/* General styles for the hero section */
+.about-hero-container {
+    position: relative;
+    width: 100%;
+    height: 60vh; /* Adjust the height as needed */
+    overflow: hidden;
+    margin-top: -100px;
+  }
+  
+  .about-hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  }
+  
+  .logo-image {
+    max-width: 300px; /* Adjust logo size */
+    width: 100%;
+  }
+  
+  /* Main content styling */
+  .about-content {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4rem;
+
+  }
+  
+  .about-text {
+    color: #333; /* Adjust text color as needed */
+  }
+  
+  .intro-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media screen and (max-width: 768px) {
+    .about-hero-container {
+      height: 50vh; /* Reduce hero section height on smaller screens */
+    }
+  
+    .about-content {
+      padding: 1rem;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    .about-text p {
+      font-size: 0.9rem;
+    }
+  }
+  

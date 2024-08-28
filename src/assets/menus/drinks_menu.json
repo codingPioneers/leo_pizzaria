@@ -1,0 +1,262 @@
+{
+  "categories": [
+    {
+      "name": "Sangrias",
+      "items": [
+        {
+          "nome": "Sangria Tinta/Branca",
+          "preco": 18.50,
+          "tipo": "Rose",
+          "origem": "Portugal"
+        } 
+    
+      ]
+    },
+    {
+      "name": "Branco",
+      "items": [
+        {
+          "nome": "Adega de Borba 375ml",
+          "preco": 8.50,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        }, 
+         {
+          "nome": "Adega de Borba 750ml",
+          "preco": 14.00,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "JP Azeitão 375ml",
+          "preco": 9.50,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "JP Azeitão 750ml",
+          "preco": 16.50,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Monte Velho 375ml",
+          "preco": 10.50,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Monte Velho 750ml",
+          "preco": 18.50,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Marquês de Borba 375ml",
+          "preco": 12.50,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Marquês de Borba 750ml",
+          "preco": 23.00,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Planalto 375ml",
+          "preco": 14.00,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Planalto 750ml",
+          "preco": 23.00,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        }
+      ]
+    },
+    {
+      "name": "Tinto",
+      "items": [
+        {
+          "nome": "Adega de Borba 375ml",
+          "preco": 9.50,
+          "tipo": "Tinto",
+          "origem": "Portugal"
+        }, 
+         {
+          "nome": "Adega de Borba 750ml",
+          "preco": 15.00,
+          "tipo": "Tinto",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "JP Azeitão 375ml",
+          "preco": 10.50,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "JP Azeitão 750ml",
+          "preco": 17.50,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Monte Velho 375ml",
+          "preco": 11.50,
+          "tipo": "Tinto",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Monte Velho 750ml",
+          "preco": 19.50,
+          "tipo": "Branco",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Marquês de Borba 375ml",
+          "preco": 13.50,
+          "tipo": "Tinto",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Marquês de Borba 750ml",
+          "preco": 24.00,
+          "tipo": "Tinto",
+          "origem": "Portugal"
+        }
+      
+      ]
+    },
+    {
+      "name": "Rosé",
+      "items": [
+        {
+          "nome": "Mateus 375ml",
+          "preco": 11.50,
+          "tipo": "Rose",
+          "origem": "Portugal"
+        }, 
+        {
+          "nome": "Mateus 750ml",
+          "preco": 18.50,
+          "tipo": "Rose",
+          "origem": "Portugal"
+        }
+      ]
+    },
+    {
+      "name": "Verde",
+      "items": [
+        {
+          "nome": "Casal Garcia 375ml",
+          "preco": 11.50,
+          "tipo": "Verde",
+          "origem": "Portugal"
+        }, 
+        {
+          "nome": "Casal Garcia 750ml",
+          "preco": 18.50,
+          "tipo": "Verde",
+          "origem": "Portugal"
+        }, 
+        {
+          "nome": "Muralhas 375ml",
+          "preco": 11.50,
+          "tipo": "Verde",
+          "origem": "Portugal"
+        }, 
+        {
+          "nome": "Muralhas 750ml",
+          "preco": 18.50,
+          "tipo": "Verde",
+          "origem": "Portugal"
+        }, 
+        {
+          "nome": "Alvarinho 375ml",
+          "preco": 16.00,
+          "tipo": "Verde",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Alvarinho 750ml",
+          "preco": 24.00,
+          "tipo": "Verde",
+          "origem": "Portugal"
+        } 
+      ]
+    },
+    {
+      "name": "Vinho da Casa",
+      "items": [
+        {
+          "nome": "Taça de Vinho",
+          "preco": 2.50,
+          "tipo": "Branco/Tinto/Verde",
+          "origem": "Portugal"
+        }, 
+        {
+          "nome": "Jarro de Vinho 250ml",
+          "preco": 4.50,
+          "tipo": "Branco/Tinto/Verde",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Jarro de Vinho 500ml",
+          "preco": 8.00,
+          "tipo": "Branco/Tinto/Verde",
+          "origem": "Portugal"
+        },
+        {
+          "nome": "Jarro de Vinho 1l",
+          "preco": 14.00,
+          "tipo": "Branco/Tinto/Verde",
+          "origem": "Portugal"
+        }
+      ]
+    },
+    {
+      "name": "Refrigerantes",
+      "items": [
+        {
+          "nome": "Coca-Cola",
+          "preco": 2.50
+        },
+        {
+          "nome": "Fanta",
+          "preco": 2.50
+        }
+      ]
+    },
+    {
+      "name": "Cervejas",
+      "items": [
+        {
+          "nome": "Super Bock",
+          "preco": 2.50,
+          "teor_alcoolico": "5%"
+        },
+        {
+          "nome": "Sagres",
+          "preco": 2.50,
+          "teor_alcoolico": "5%"
+        },
+        {
+          "nome": "Heineken",
+          "preco": 3.00,
+          "teor_alcoolico": "5%"
+        },
+        {
+          "nome": "Corona",
+          "preco": 3.50,
+          "teor_alcoolico": "4.5%"
+        }
+      ]
+    }
+   
+    
+  ]
+}
